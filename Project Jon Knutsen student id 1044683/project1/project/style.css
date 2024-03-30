@@ -1,0 +1,121 @@
+#adWrapper {
+    width: 1200px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#adScene1Background {
+    position: relative;
+    height: 300px;
+    right: -35%;
+    top: 200px;
+    animation: slide 4s linear 0s forwards, inToOut 1s 5s forwards; /*4*/
+}
+
+#adScene1Background img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.container {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: aquamarine;
+}
+.container2 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: aquamarine;
+}
+h1 {
+    font-size: 80px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 600;
+   
+
+}
+span::before { 
+    content: "Piha";
+    animation: animate 3s 1 alternate forwards;
+    
+}
+
+#adScene2Background {
+    position: relative;
+    height: 300px;
+    top: -100px;
+    animation: inToOut2 0s 5s forwards, zoomIn 6s ease-in forwards ;
+    visibility: hidden;
+
+    
+}
+#adScene2Background img {
+    position: absolute;
+    width: 150%;
+    height: 100%;
+}
+
+
+@keyframes animate {
+    0% {
+        content: "Piha";
+    }
+    60% {
+        content: "Wild";
+        color: aqua;
+        font-size: 120px;
+    }
+    85%, 100% {
+        content: "Piha";
+    }
+}
+@keyframes slide {
+    from {
+        right: -35%;
+    }
+    to {
+        right: 0%;
+    }
+}
+@keyframes  inToOut {
+   from {
+    opacity: 1;
+   }
+   to {
+    opacity: 0;
+   }
+}
+@keyframes inToOut2 { 
+  to {
+    visibility: visible;
+  }
+} 
+@keyframes zoomIn { /* 3 */
+    0% {
+    transform: scale(1, 1);
+    }
+    100% {
+    transform: scale(1.2, 1.2);
+    }
+
+}
+
+/* 1 - https://stackoverflow.com/questions/46798683/css-hide-element-after-5-seconds-show-it
+2 - https://www.geeksforgeeks.org/how-to-create-text-changing-animation-effect-using-css/ 
+3 = https://www.30secondsofcode.org/css/s/zoomin-zoomout-animation/
+4 - https://www.w3schools.com/css/css3_animations.asp
+https://www.w3schools.com/css/css3_animations.asp*/

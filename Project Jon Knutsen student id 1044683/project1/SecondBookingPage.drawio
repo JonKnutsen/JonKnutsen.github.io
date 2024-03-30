@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" modified="2024-03-22T10:48:00.931Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.0.7" etag="2b9IPkhCB3jyHjZ7ASA6" type="device">
+  <diagram id="tFCzCTsXAp3-m1mUJFHV" name="Page-1">
+    <mxGraphModel dx="1002" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-1" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="9" y="70" width="851" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-2" value="BookingPage2" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;whiteSpace=wrap;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-1">
+          <mxGeometry x="60" y="20" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-3" value="https://www.PihaLodge/page2.html" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-1">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-4" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-1">
+          <mxGeometry x="11" y="130" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-5" value="Piha Lodge" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-1">
+          <mxGeometry x="86" y="175" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-6" value="About Us" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#1FFF87;whiteSpace=wrap;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-1">
+          <mxGeometry x="631" y="130" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-7" value="Contact Us" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#1FFF87;whiteSpace=wrap;labelBackgroundColor=none;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-1">
+          <mxGeometry x="461" y="130" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-8" value="Main Page" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#1FFF87;whiteSpace=wrap;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-1">
+          <mxGeometry x="291" y="130" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-9" value="" style="shape=mxgraph.mockup.containers.marginRect;rectMarginTop=10;strokeColor=#666666;strokeWidth=1;dashed=0;rounded=1;arcSize=5;recursiveResize=0;html=1;whiteSpace=wrap;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-1">
+          <mxGeometry x="201" y="290" width="449" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-10" value="Continue your booking with us" style="shape=rect;strokeColor=none;fillColor=#008cff;strokeWidth=1;dashed=0;rounded=1;arcSize=20;fontColor=#ffffff;fontSize=17;spacing=2;spacingTop=-2;align=left;autosize=1;spacingLeft=4;resizeWidth=0;resizeHeight=0;perimeter=none;html=1;whiteSpace=wrap;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-9">
+          <mxGeometry x="90" y="35" width="250" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="Would you look to book cooking equipment with us?" placeholders="1" name="Variable" id="FvtFV4E34Oiy8JR0AbyX-64">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=15;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-9">
+            <mxGeometry x="124.5" y="120" width="190" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-67" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.misc.progressBar;fillColor=#cccccc;strokeColor=none;fillColor2=#99ddff;barPos=80;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-9">
+          <mxGeometry x="124.5" y="700" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-68" value="Submit" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#E6E6E6;align=center;strokeColor=#B3B3B3;fontColor=#333333;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-9">
+          <mxGeometry x="164.75" y="650" width="105.5" height="16.88" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-72" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;fillColor=#ffffff;recursiveResize=0;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-9">
+          <mxGeometry x="135" y="190" width="177.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-73" value="Stove" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fillColor=#eeeeee;strokeColor=#999999;gradientColor=#cccccc;align=left;spacingLeft=4;fontSize=17;fontColor=#666666;labelPosition=right;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-72">
+          <mxGeometry x="8" y="7.5" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-74" value="Stove &amp;amp; Microwave" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fillColor=#eeeeee;strokeColor=#999999;gradientColor=#cccccc;align=left;spacingLeft=4;fontSize=17;fontColor=#666666;labelPosition=right;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-72">
+          <mxGeometry x="8" y="37.5" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-75" value="BBQ" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.checkbox;rSize=0;resizable=0;fillColor=#aaaaaa;strokeColor=#444444;gradientColor=#666666;align=left;spacingLeft=4;fontSize=17;fontColor=#008cff;labelPosition=right;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-72">
+          <mxGeometry x="8" y="67.5" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-76" value="Slow Cookers" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fillColor=#eeeeee;strokeColor=#999999;gradientColor=#cccccc;align=left;spacingLeft=4;fontSize=17;fontColor=#666666;labelPosition=right;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-72">
+          <mxGeometry x="8" y="97.5" width="15" height="15" as="geometry" />
+        </mxCell>
+        <UserObject label="Would you like to book swimming gear with us?" placeholders="1" name="Variable" id="FvtFV4E34Oiy8JR0AbyX-77">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=15;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-9">
+            <mxGeometry x="122.5" y="355" width="190" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-89" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;fillColor=#ffffff;recursiveResize=0;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-9">
+          <mxGeometry x="113.25" y="420" width="222.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-90" value="Canoes" style="shape=ellipse;rSize=0;fillColor=#eeeeee;strokeColor=#999999;gradientColor=#cccccc;html=1;align=left;spacingLeft=4;fontSize=17;fontColor=#666666;labelPosition=right;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-89">
+          <mxGeometry x="8" y="7.5" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-91" value="Surfboards" style="shape=ellipse;rSize=0;fillColor=#eeeeee;strokeColor=#999999;gradientColor=#cccccc;html=1;align=left;spacingLeft=4;fontSize=17;fontColor=#666666;labelPosition=right;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-89">
+          <mxGeometry x="8" y="37.5" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-92" value="Inflatible gear for children" style="shape=ellipse;rSize=0;fillColor=#aaaaaa;strokeColor=#444444;gradientColor=#666666;html=1;align=left;spacingLeft=4;fontSize=17;fontColor=#008cff;labelPosition=right;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-89">
+          <mxGeometry x="8" y="67.5" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="FvtFV4E34Oiy8JR0AbyX-93" value="" style="shape=ellipse;fillColor=#444444;strokeColor=none;html=1;" vertex="1" parent="FvtFV4E34Oiy8JR0AbyX-92">
+          <mxGeometry x="3" y="3" width="9" height="9" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
