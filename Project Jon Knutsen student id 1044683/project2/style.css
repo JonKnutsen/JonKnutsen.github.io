@@ -1,52 +1,145 @@
+
 #adWrapper {
-    width: 600px;
-    height: 600px;
+    width: 1200px;
+    height: 800px;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    overflow: hidden;
+    position: absolute;
+    
     
 }
-#adScene1 {
-    position: relative;
+
+#adScene1Background {
+    position: absolute;
     height: 300px;
     right: -35%;
-    display: inline-block;
+    width: 150%;
+    z-index: 999;
     
-    animation: slide1 3s linear 0s forwards;
-    
+    animation: slide 4s linear 0s forwards, inToOut 1s 5s forwards; /*4*/
 }
 
-
-.photo1BG img {
-    display: block;
+#adScene1Background img {
+    position: absolute;
     width: 100%;
     height: 100%;
-    margin: auto; 
-}
-.text1 {
-    text-align: center;
+    
 }
 
-.text2 {
+
+.container {
     position: absolute;
-    top: 50%;
-    left:30%;
-    transform: translate(-50%, -50%);
-    background-color:  #000000;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: aquamarine;
+}
+.container2 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: aquamarine;
+}
+h1 {
+    font-size: 80px;
     color: #fff;
-    padding: 10px 20px;
-    font-size: 20px;
-    text-align: center; /*1*/
+    letter-spacing: 2px;
+    font-weight: 600;
+   
+
+}
+span::before { 
+    content: "Piha";
+    animation: animate 3s 1 alternate forwards;
+    
+}
+
+.wrapper2 {
+    margin: auto;
+    top:0px;
+
+}
+
+#adScene2Background {
+    position: fixed; 
+    height: 300px;
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+    animation: inToOut2 0s 5s forwards, zoomIn 6s ease-in forwards;
+    visibility: hidden;
+    z-index: 999; 
+}
+
+#adScene2Background img {
+    position: absolute;
+    width: 150%;
+    height: 100%;
+
+}
+.name {
+    position: relative;
+    bottom: 15px;
+    
+}
+.aside {
+    position:relative;
+    right: 50px'
 }
 
 
-@keyframes slide1 {
+
+
+@keyframes animate {
+    0% {
+        content: "Piha";
+    }
+    60% {
+        content: "Wild";
+        color: aqua;
+        font-size: 120px;
+    }
+    85%, 100% {
+        content: "Piha";
+    }
+}
+@keyframes slide {
     from {
         right: -35%;
     }
     to {
-        right: 3%;
+        right: 0%;
     }
 }
-/* 1 - /*https://bannerbear.com/blog/how-to-overlay-text-on-an-image-in-html-and-css*/
+@keyframes  inToOut {
+   from {
+    opacity: 1;
+   }
+   to {
+    opacity: 0;
+   }
+}
+@keyframes inToOut2 { 
+  to {
+    visibility: visible;
+  }
+} 
+@keyframes zoomIn { /* 3 */
+    0% {
+    transform: scale(1, 1);
+    }
+    100% {
+    transform: scale(1.2, 1.2);
+    }
+
+}
+
+/* 1 - https://stackoverflow.com/questions/46798683/css-hide-element-after-5-seconds-show-it
+2 - https://www.geeksforgeeks.org/how-to-create-text-changing-animation-effect-using-css/ 
+3 = https://www.30secondsofcode.org/css/s/zoomin-zoomout-animation/
+4 - https://www.w3schools.com/css/css3_animations.asp
+https://www.w3schools.com/css/css3_animations.asp*/
