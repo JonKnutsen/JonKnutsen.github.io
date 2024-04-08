@@ -1,0 +1,204 @@
+.childSelection {
+    padding-top:10px;
+}
+.pick {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Aligning_items_in_a_flex_container */
+}
+
+
+.invite {
+    background-color: lightskyblue;
+    padding: 10px;
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+.DatePicker {
+    background: aquamarine;
+    margin-top: 20PX;
+    margin-bottom: 20px;
+}
+
+.guestsSection {
+    margin-bottom: 20px;
+}
+
+.pick {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.form {
+height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center; /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Aligning_items_in_a_flex_container */
+}
+
+#adWrapper {
+    width: 1200px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    
+    
+}
+
+#adScene1Background {
+    position: absolute;
+    height: 300px;
+    right: -35%;
+    width: 150%;
+    z-index: 999; /* https://blog.hubspot.com/website/scrolling-text-css#:~:text=For%20left%2Dto%2Dright%20scrolling,the%20start%20of%20the%20animation. */
+    
+    animation: slide 4s linear 0s forwards, inToOut 1s 5s forwards; /*4*/
+}
+
+#adScene1Background img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.container {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: aquamarine; /* OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com */
+}
+.container2 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: aquamarine;/* OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com*/
+} 
+h1 {
+    font-size: 80px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 600;
+   
+
+}
+span::before { 
+    content: "Piha";
+    animation: animate 3s 1 alternate forwards;
+    
+}
+
+.wrapper2 {
+    margin: auto;
+    top:0px;
+
+}
+.navLogo {
+    top: -60px;
+}
+#adScene2Background {
+    position: fixed; 
+    height: 300px;
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+    animation: inToOut2 0s 5s forwards, zoomIn 6s ease-in forwards; /* /* OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com*/ */
+    visibility: hidden;
+    
+}
+
+#adScene2Background img {
+    position: absolute;
+    width: 150%;
+    height: 100%;
+
+}
+.name {
+    position: relative;
+    bottom: 15px;
+    
+}
+.aside {
+    position:relative;
+    right: 50px'
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 10px;;
+}
+aside {
+    width: 25%; OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
+}
+nav {
+    width: 75%;
+} OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
+
+
+
+
+@keyframes animate {
+    0% {
+        content: "Piha";
+    }
+    60% {
+        content: "Wild";
+        color: aqua;
+        font-size: 120px;
+    }
+    85%, 100% {
+        content: "Piha";
+    }
+}
+@keyframes slide {
+    from {
+        right: -35%;
+    }
+    to {
+        right: 0%;
+    }
+}
+@keyframes  inToOut {
+   from {
+    opacity: 1;
+   }
+   to {
+    opacity: 0;
+   }
+}
+@keyframes inToOut2 { 
+  to {
+    visibility: visible;
+  }
+} 
+@keyframes zoomIn { /* 3 */
+    0% {
+    transform: scale(1, 1);
+    }
+    100% {
+    transform: scale(1.2, 1.2);
+    }
+
+}
+
+/* 1 - https://stackoverflow.com/questions/46798683/css-hide-element-after-5-seconds-show-it
+2 - https://www.geeksforgeeks.org/how-to-create-text-changing-animation-effect-using-css/ 
+3 = https://www.30secondsofcode.org/css/s/zoomin-zoomout-animation/
+4 - https://www.w3schools.com/css/css3_animations.asp
+https://www.w3schools.com/css/css3_animations.asp*/

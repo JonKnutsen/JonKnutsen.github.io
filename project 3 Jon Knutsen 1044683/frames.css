@@ -1,0 +1,17 @@
+html{
+
+}
+.header {
+    background-color: greenyellow;
+    height: 250px;
+    padding: 10px;
+}
+.aside {
+    background-color: darksalmon;
+    width: 30%;
+    display: block;
+    float: none; 
+    height: 300px;
+    top: auto;
+    
+}
